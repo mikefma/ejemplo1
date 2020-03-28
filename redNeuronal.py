@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class perceptron:
-    #Hola Mundo
     def __init__(self, n):
         self.pesos = np.random.randn(n)
         self.n = n
@@ -35,4 +34,3 @@ plt.plot(grad_pesos[:,2],'b')
 plt.show()
 
 print('Hola Mundo')
-
