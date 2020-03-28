@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class perceptron:
-
+    #Hola Mundo
     def __init__(self, n):
         self.pesos = np.random.randn(n)
         self.n = n
