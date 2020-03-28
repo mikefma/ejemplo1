@@ -34,3 +34,5 @@ plt.plot(grad_pesos[:,2],'b')
 
 plt.show()
 
+print('Hola Mundo')
+
